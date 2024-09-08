@@ -13,7 +13,8 @@ function ensureNoLeadingSlash(path: string): string {
 	return path[0] === "/" ? path.substring(1) : path;
 }
 
-type JWKSignature = { domain?: string; alg?: string; kid?: string };
+export type JWKSignature = { domain?: string; alg?: string; kid?: string };
+export type GetPublicKeyOptions = JWKSignature;
 type JWK = {
 	[key: string]: PropertyKey;
 	domain: string;
@@ -21,7 +22,7 @@ type JWK = {
 	kid: string;
 };
 
-type GetJwksOptions = {
+export type GetJwksOptions = {
 	max?: number;
 	ttl?: number;
 	issuersWhitelist?: string[];
@@ -31,7 +32,7 @@ type GetJwksOptions = {
 	checkIssuer?: (domain: string) => boolean;
 };
 
-type GetJwks = {
+export type GetJwks = {
 	getPublicKey: (options?: JWKSignature) => Promise<string>;
 	getJwk: (signature: JWKSignature) => Promise<JWK>;
 	getJwksUri: (normalizedDomain: string) => Promise<string>;
