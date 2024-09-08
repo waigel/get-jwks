@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.1](https://github.com/waigel/get-jwks/compare/get-jwks@v1.0.0...get-jwks@v1.0.1) (2024-09-08)
+
+
+### Bug Fixes
+
+* buildGetJwks export missing ([188c126](https://github.com/waigel/get-jwks/commit/188c126127088fbb04d3bdeac761c7edda2d4c55))
+* export types ([492cdf1](https://github.com/waigel/get-jwks/commit/492cdf1273d00d36b4cc9cb59263ef5a937684ed))
+* export types ([1327e1d](https://github.com/waigel/get-jwks/commit/1327e1d2045117dff98c89af790169d4e447b47f))
+* jose import ([0bfa1f7](https://github.com/waigel/get-jwks/commit/0bfa1f747f73d42e5633107b2ceb81ff0371db3d))
+
 ## 1.0.0 (2024-09-08)
 
 
