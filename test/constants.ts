@@ -46,10 +46,7 @@ const jwks: JWKS = {
 	],
 };
 
-const privateKey: string = readFileSync(
-	path.join(__dirname, "private.pem"),
-	"utf8",
-);
+const privateKey: string = readFileSync("test/private.pem", "utf8");
 
 const jwk: JWK = jwks.keys[1];
 
