@@ -29,20 +29,20 @@
     "commitlint": "commitlint --from=HEAD~1"
   },
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.17.1",
+    "@arethetypeswrong/cli": "^0.17.3",
     "@biomejs/biome": "1.9.4",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/config-conventional": "^19.7.1",
     "@tsconfig/strictest": "^2.0.5",
     "@types/node": "^22.1.0",
     "@types/node-jose": "^1.1.13",
-    "commitlint": "^19.6.0",
+    "commitlint": "^19.7.1",
     "jsonwebtoken": "^9.0.2",
-    "lefthook": "^1.9.2",
-    "msw": "^2.6.8",
-    "nock": "^13.5.6",
-    "tsup": "^8.3.5",
-    "typescript": "^5.7.2",
-    "vitest": "^2.1.8"
+    "lefthook": "^1.10.10",
+    "msw": "^2.7.0",
+    "nock": "^14.0.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
   },
   "engines": {
     "node": ">=20"
